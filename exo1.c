@@ -1,14 +1,6 @@
 #include <stdio.h>
 #include "exo1.h"
 
-
-void initialize(int* pa, float* pb){
-
-    *pa = 0;
-    *pb = 0;
-
-}
-
 int main(){
     int a;
     float b;
@@ -23,6 +15,10 @@ int main(){
     printf(" a = %d", a);
     printf(" b = %f", b);
 
-
     return 0;
+}
+
+void initialize(int* a, float* b){
+    *a = 0;
+    *b = 0;
 }
